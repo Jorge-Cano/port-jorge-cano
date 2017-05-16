@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
 
 body, html{
-  padding-top: 50px;
   background: #F8F8F8;
   font-family: "Oswald", sans-serif !important;
   height: 100% !important;
@@ -108,6 +107,7 @@ body, html{
 
 .section1{
   background: #FFFFFF;
+  padding-top: 50px;
   padding-bottom: 300px;
   height: 100%;
 }

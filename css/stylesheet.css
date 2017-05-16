@@ -4,7 +4,10 @@ body, html{
   padding-top: 50px;
   background: #F8F8F8;
   font-family: "Oswald", sans-serif !important;
+  height: 100%;
 }
+
+
 
 .lead {
   font-weight: 300px !important;
@@ -107,6 +110,7 @@ body, html{
 .section1{
   background: #FFFFFF;
   padding-bottom: 300px;
+  height: 100%;
 }
 
 .section2 {
@@ -133,6 +137,7 @@ body, html{
   padding: 40px 15px;
   text-align: center;
 }
+
 
 #about {
   padding: 40px 15px;
@@ -163,6 +168,9 @@ footer {
   text-align: center;
 }
 
+/*.full {
+  height: 100%
+}*/
 
 /*practice*/
 /*body {

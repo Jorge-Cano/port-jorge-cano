@@ -44,13 +44,13 @@ body, html{
 }
 
 
-/*#section04 { background: url(http://www.nxworld.net/codepen/css-scroll-down-button/bg04.jpg) center center / cover no-repeat;
+/*#section03 { background: url(http://www.nxworld.net/codepen/css-scroll-down-button/bg04.jpg) center center / cover no-repeat;
 }*/
 
-/*#section01 { background: url(http://www.nxworld.net/codepen/css-scroll-down-button/bg07.jpg) center center / cover no-repeat;}
+/*#section01 { background: url(http://www.nxworld.net/codepen/css-scroll-down-button/bg07.jpg) center center / cover no-repeat;}*/
 #section02 { background: url(http://www.nxworld.net/codepen/css-scroll-down-button/bg08.jpg) center center / cover no-repeat;}
 #section03 { background: url(http://www.nxworld.net/codepen/css-scroll-down-button/bg09.jpg) center center / cover no-repeat;}
-#section04 { background: url(http://www.nxworld.net/codepen/css-scroll-down-button/bg10.jpg) center center / cover no-repeat;}*/
+/*#section04 { background: url(http://www.nxworld.net/codepen/css-scroll-down-button/bg10.jpg) center center / cover no-repeat;}*/
 
 
 
@@ -80,8 +80,8 @@ body, html{
 }
 
 .card  {
-  background: rgba(250,250,250,1);
-  /*background: rgba(8,20,20,.9);*/
+  /*background: rgba(250,250,250,1);*/
+  background: rgba(180,50,20,.5);
   padding: 10px 10px 10px 10px;
   font-size: 26px;
   text-align: left;
@@ -159,6 +159,16 @@ body, html{
   margin: 10px 10px 10px 10px;
 }
 
+.project-img {
+  padding: 10px;
+}
+
+.project-img img{
+  border-radius: 15px;
+  border: 4px solid black;
+  margin: 15px;
+}
+
 
 footer {
   background: #222222;
@@ -170,6 +180,31 @@ footer {
 .active, li{
   text-align: center;
 }
+
+
+/*styles of background images above*/
+
+.about h1 {
+  color: white;
+  font-size: 36px;
+  text-shadow: 2px 2px black;
+}
+
+
+.about p{
+  color: white;
+  text-shadow: 1px 1px black;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+/*card flip not working*/
 
 /*.full {
   height: 100%
